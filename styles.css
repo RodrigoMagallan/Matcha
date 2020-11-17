@@ -140,3 +140,32 @@ margin-bottom: 24px;
 .logos_img > img {
     margin-left: 6.6%;
 }
+
+@media (max-width: 575px) {
+  body{
+    background: linear-gradient(150deg, #ffffff, #ff9696, #f11d1d)
+  }
+  #logo{
+      display: flex;
+      align-content: flex-start;
+      width: 100%;
+  }
+    .home-title {
+    font-size: 30px;
+    font-family: "Lucida Sans Unicode";
+    color: blueviolet;
+    }
+  .navbar , .actions{
+      display: none;
+  }
+  .home-video{
+      display: none;
+  }
+
+  .home-final{
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  
+  }
